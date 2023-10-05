@@ -1,10 +1,30 @@
+.DS_Store
+*/.DS_Store
+*.pdf
+
+# keep rep from blowing up
+**/output/*MCMC*
+**/output/*error*
+**/output/*probs*
+
+Normal_random_walk/output/*
+
+**/deprecate/*
+**/deprecated/*
+**/not_for_prime_time/*
+
+# no figures
+*/figures/*
+
+# no original data files
+simulation_study/data/JC_gamma/*
+
 # History files
 .Rhistory
 .Rapp.history
 
 # Session Data files
 .RData
-.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -38,12 +58,4 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+.Rproj.user
